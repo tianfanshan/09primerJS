@@ -1,5 +1,5 @@
 //Variables
-alert("JavaScript funcionando correctamente");
+/*alert("JavaScript funcionando correctamente");*/
 
 let variableSinValor;
 
