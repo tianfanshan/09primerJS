@@ -1,52 +1,68 @@
 //Variables
 alert("JavaScript funcionando correctamente");
+
 let variableSinValor;
+
 let uno=true;
 console.log(uno);
+
 let dos=false;
 console.log(dos);
+
 const PI=3.14;
-console.log(PI);
+console.log("PI es:"+PI);
+
 const TAU=(PI*2);
-console.log(TAU);
-const miNombre="Tianfan Shan";
+console.log("TAU es:"+TAU);
+
+const miNombre="Tianfan";
 console.log("Mi nombre: ", miNombre);
+
 const miNumeroFav=9;
 const tres=true;
-console.log(miNumeroFav);
-console.log(miNombre.length);
+console.log("mi numero favorito es:"+miNumeroFav);
+
+console.log("el longitud de mi nombre es:"+miNombre.length+"letras.");
+
 console.log(typeof miNumeroFav);
+
 console.log("Mi nombre es"+miNombre+"y mi numero favorito es"+miNumeroFav);
+
 const cuatro="Seré un crack en JavaScript al terminar el bootcamp";
     let val;
         val=cuatro.toUpperCase();
         console.log(val);
-const cinco="Hola soy un crack";
+
+const cinco="Hola soy 123 un crack";
     let val1;
         val1=cinco.substring(0,5);
         console.log(val1);
-console.log(typeof miNumeroFav)
-const miVariableCambiada = miNumeroFav.toString()
-console.log(typeof miVariableCambiada)
+
+console.log("tipo de mi numero favorito es:"+typeof miNumeroFav);
+
+const miVariableCambiada = miNumeroFav.toString();
+console.log("le he cambiado el tipo,del numero a la letra:"+typeof miVariableCambiada);
+
 console.log("Me has cambiado el tipo?: ", miVariableCambiada)
-//var seis=
+
+//Muestra por consola la variable PI hasta los 2 primeros decimales
 
 
 //Arrays
 const arrayVacio =[];
-console.log(arrayVacio);
+console.log("este array esta vacio:"+arrayVacio);
 
 const arrayNumeros=[0,1,2,3,4,5,6,7,8,9];
-console.log(arrayNumeros);
+console.log("este array tiene numero de:"+arrayNumeros);
 
 const arrayNumeros2=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
-console.log(arrayNumeros2);
+console.log("este es el segundo array de numeros:"+arrayNumeros2);
 
 const arrayNumerosPares=[0,2,4,6,8];
-console.log(arrayNumerosPares);
+console.log("numero de pares"+arrayNumerosPares);
 
 const arrayNumerosNeg=[0,-1,-2,-3,-4,-5,-6,-7,-8,-9];
-console.log(arrayNumerosNeg);
+console.log("numeros negativos:"+arrayNumerosNeg);
 
 const holaMundo=['Hola','Mundo'];
 console.log(holaMundo);
@@ -54,21 +70,23 @@ console.log(holaMundo);
 const loGuardoTodo=['hola','que',23,42.33,'tal'];
 console.log(loGuardoTodo);
 
-const arrayDeArrays=[[756,'nombre'],[225,'apellido'][298,'direccion']];
-console.log(loGuardoTodo.length);
+const arrayDeArrays=[[756,'nombre'],[225,'apellido'],[298,'direccion']];
+console.log(arrayDeArrays.length);
 
 const siete=[1,2,3,4];
     siete.push("loGuardoTodo");
     console.log(siete);
 
-//
+arrayNumeros.sort();
+console.log("de numero menor a mayor usamos sort:"+arrayNumeros);
 
-//
+arrayNumeros2.reverse();
+console.log("para darle al reves:"+arrayNumeros2);
 
-console.log(loGuardoTodo[1]);
+console.log("para sacar segunda parabla usa variable+[1]"+loGuardoTodo[1]);
 
 loGuardoTodo.push("Euralio");
-console.log(loGuardoTodo);
+console.log("le pongo al final con push"+loGuardoTodo);
 
 //Objetos
 const coche={
@@ -113,9 +131,9 @@ const Persona={
 }
 console.log(Persona);
 
-console.log(Persona.nombre);
+console.log("el nombre es :"+Persona.nombre);
 
-console.log(FullStackDeveloper.lenguajes);
+console.log("lenguaje que usamos:"+FullStackDeveloper.lenguajes);
 
 const Portatil={
     marca1:"Hp",
@@ -125,7 +143,7 @@ const Portatil={
 console.log(Portatil);
 
 const marca=["HP","ASUS","LG"];
-console.log(marca);
+console.log("marcas:"+marca);
 
 const Led={
     rojo:["Rojo"],
@@ -135,12 +153,16 @@ const Led={
 console.log(Led);
 
 const O_Error={
-
+    cuatro:["cuarto"],
+    cinco:["qinto"],
+    seis:["sexto"],
 }
+console.log(O_Error);
 
 const Grup={
-
+    uno:["1","2","3"],
 }
+console.log(Grup);
 
 const impresora={
     tinta:{
@@ -149,7 +171,7 @@ const impresora={
         azul:["medio"],
     }
 }
-console.log(impresora.tinta.rojo);
+console.log("como esta la tinta?:"+impresora.tinta.rojo);
 
 const Movil={
     especificaciones:["especificaciones"],
@@ -157,9 +179,18 @@ const Movil={
 console.log(Movil.especificaciones);
 
 console.log(Portatil.marca1);
+
 Portatil.marca1 = "Msi";
 console.log(Portatil.marca1);
 
-//
-//
-//
+const concierto={
+    siete:["Guns N' Roses"],
+    ocho:["7 de marzo"],
+}
+console.log(concierto.siete);
+
+concierto.ocho="11 de abrir";
+console.log(concierto.ocho);
+
+Grup.uno.pop();
+console.log(Grup.uno.length);
