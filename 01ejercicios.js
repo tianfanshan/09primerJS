@@ -9,7 +9,7 @@ console.log(uno);
 let dos=false;
 console.log(dos);
 
-const PI=3.14;
+const PI=3.1415926;
 console.log("PI es:"+PI);
 
 const TAU=(PI*2);
@@ -45,8 +45,12 @@ console.log("le he cambiado el tipo,del numero a la letra:"+typeof miVariableCam
 
 console.log("Me has cambiado el tipo?: ", miVariableCambiada)
 
-/*let val3;
+let val3;
     val3=PI.toFixed(2);
+    console.log(val3);
+
+    /*let val3;
+    val3=PI.toPrecision(2);
     console.log(val3);*/
 
 //Arrays
