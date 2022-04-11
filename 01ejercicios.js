@@ -45,8 +45,9 @@ console.log("le he cambiado el tipo,del numero a la letra:"+typeof miVariableCam
 
 console.log("Me has cambiado el tipo?: ", miVariableCambiada)
 
-//Muestra por consola la variable PI hasta los 2 primeros decimales
-
+/*let val3;
+    val3=PI.toFixed(2);
+    console.log(val3);*/
 
 //Arrays
 const arrayVacio =[];
