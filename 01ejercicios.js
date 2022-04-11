@@ -171,15 +171,17 @@ console.log(Grup);
 
 const impresora={
     tinta:{
-        rojo:["lleno"],
-        verde:["poco"],
-        azul:["medio"],
+        rojo:"lleno",
+        verde:"poco",
+        azul:"medio",
     }
 }
-console.log("como esta la tinta?:"+impresora.tinta.rojo);
+
+const nivelesDeTinta=impresora.tinta;
+console.log("cual es el nivel de tinta: "+nivelesDeTinta);
 
 const Movil={
-    especificaciones:["especificaciones"],
+    especificaciones:["123","321","432"],
 }
 console.log(Movil.especificaciones);
 
@@ -195,6 +197,9 @@ const concierto={
 console.log(concierto.siete);
 
 concierto.ocho="11 de abrir";
+console.log(concierto.ocho);
+
+concierto.ocho=new Date();
 console.log(concierto.ocho);
 
 Grup.uno.pop();
