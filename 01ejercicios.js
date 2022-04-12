@@ -1,4 +1,5 @@
 //Variables
+
 /*alert("JavaScript funcionando correctamente");*/
 
 let variableSinValor;
@@ -35,7 +36,7 @@ const cuatro="Seré un crack en JavaScript al terminar el bootcamp";
 
 const cinco="Hola soy 123 un crack";
     let val1;
-        val1=cinco.substring(0,5);
+        val1=cinco.substring(0,5);  //val1=cinco.slice(0,5);
         console.log(val1);
 
 console.log("tipo de mi numero favorito es:"+typeof miNumeroFav);
@@ -54,6 +55,7 @@ let val3;
     console.log(val3);*/
 
 //Arrays
+
 const arrayVacio =[];
 console.log("este array esta vacio:"+arrayVacio);
 
@@ -82,7 +84,7 @@ const siete=[1,2,3,4];
     siete.push("loGuardoTodo");
     console.log(siete);
 
-arrayNumeros.sort();
+arrayNumeros.sort(); //arraynumeros.sort((a,b)=>a-b);
 console.log("de numero menor a mayor usamos sort:"+arrayNumeros);
 
 arrayNumeros2.reverse();
@@ -94,9 +96,10 @@ loGuardoTodo.push("Euralio");
 console.log("le pongo al final con push"+loGuardoTodo);
 
 //Objetos
+
 const coche={
     marca:"BMW",
-    modelo:"seie1",
+    modelo:"serie1",
     matricula:"123bcv",
 };
 console.log(coche);
@@ -151,9 +154,9 @@ const marca=["HP","ASUS","LG"];
 console.log("marcas:"+marca);
 
 const Led={
-    rojo:["Rojo"],
-    verde:["Verde"],
-    azul:["Azul"],
+    rojo:"Rojo",
+    verde:"Verde",
+    azul:"Azul",
 }
 console.log(Led);
 
